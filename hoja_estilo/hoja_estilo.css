@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  background-image: url("../imagenes/destiny.jpg");
+  background-color: red ;
+}
+
+.main{
+	background-color: black;
+}
+
+img.logo_principal{
+	margin-left: 50px;
+    width: 70px;
+}
+
+.menu_principal{
+	display: inline-block;
+}
+
+.menu_principal > li {
+	float: left;
+}
+
+ul {
+	list-style: none;
+}
+
+.menu_principal li a {
+	background-color:#000;
+	color:green;
+	text-decoration:none;
+	padding:10px 20px;
+	display:block;
+}
+
+.menu_principal li a:hover {
+	background-color:#434343;
+}
+
+.menu_principal li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.menu_principal li:hover > ul {
+	display:block;
+}
+
+.menu_principal li ul li a {
+	color: salmon;
+}
+
+h1{
+	color: yellow;
+}
+
+
+
